@@ -1,76 +1,29 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <link rel="icon" href="images/shiba-logo.png">
-        <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
-        <title>Ecommerce - Official Page</title>
-    </head>
-    <body>
-        <div class="container">
-            
-            <nav class="bx navbar">
-                <div class="header-logo">
-                    <img src="images/images (10).jpg">
-                </div>
-                <div class="header-link">
-                    <a href="#">About</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Contact</a>                    
-                </div>
-            </nav>
-            
-            <div class="bx hero">
-                <div class="hero-1 hero-cta">
-                    <h1>Ecommerce website</h1>
-                    <p>Buy daily needs products here
-                    </p>
-                    <button type="button">Sign Up</button>
-                </div>
-                <div class="hero-1 hero-image">
-                    <img src="images/images (8).jpg" alt="shiba">
-                </div>
-            </div>
-
-            <div class="bx content">
-                <h2>Types of products</h2>
-                <div class="content-info">
-                    <div>
-                        <img src="images/images (6).jpg">
-                        <p>Soaps and Shampoo</p>
-                    </div>
-                    <div>
-                        <img src="images/images (7).jpg">
-                        <p>Mama-earth premium</p>
-                    </div>
-                    <div>
-                        <img src="images/images (9).jpg">
-                        <p>Coca Cola</p>
-                    </div>
-                    <div>
-                        <img src="images/images (8).jpg">
-                        <p>Lotions</p>
-                    </div>
-                </div>
-            </div>
-            <div class="bx quote">
-                <p>"Whoever said money can't buy happiness simply didn't know where to go shopping.""
-                </p>
-                <b>
-                    -- Anonymous Prince
-                </b>
-            </div>
-            <div class="bx sign-up">
-                <div class="sign-item signs-text">
-                    <h3>Keep it updated with New products!</h3>
-                    <p>Sign up for the latest information right now!</p>
-                </div>
-                <div class="sign-item signs-button">
-                    <button type="button">Sign Up</button>
-                </div>
-            </div>
-            <div class="bx footer">
-                <p>Copyright © prince Prasad 2023</p>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temperature Converter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Temperature Converter</h1>
+    <div class="converter">
+      <input type="number" id="inputTemp" placeholder="Enter temperature...">
+      <select id="inputScale">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+      </select>
+      <button id="convertBtn">Convert</button>
+      <select id="outputScale">
+        <option value="Celsius">Celsius</option>
+        <option value="Fahrenheit">Fahrenheit</option>
+      </select>
+      <input type="text" id="outputTemp" readonly>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
 </html>
